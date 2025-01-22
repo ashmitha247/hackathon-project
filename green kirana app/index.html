@@ -133,13 +133,18 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card" id="divLink">
                         <img src="https://www.sparxsys.com/sites/default/files/sampleMap.JPG" alt="Location Mapping">
                         <div class="p-3">
                             <h5>Location Mapping</h5>
                             <p>Find the nearest drop-off centers with hours and directions.</p>
                         </div>
                     </div>
+                    <script>
+                        document.getElementById('divLink').addEventListener('click', function () {
+                            window.location.href = 'map.html';
+                        });
+                    </script>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
